@@ -23,7 +23,7 @@ permissions:
 
 env:
   REPO_URL: https://github.com/1280-720/immortalwrt-mt798x/
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   BUILDROOT: ${{ github.workspace }}/openwrt
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
